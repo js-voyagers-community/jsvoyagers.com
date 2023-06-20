@@ -1,0 +1,67 @@
+@import '../../styles/mixins';
+
+.meetupContainer {
+    @include customFlex(40px, center);
+    padding: 48px;
+    background: #181818;
+    border-radius: 16px;
+
+    .contentWrapper {
+        flex-basis: 50%;
+
+        h3 {
+            @include customFont(20px, 600, 160%, uppercase);
+        }
+
+        p {
+            @include customFont(14px, 500, 160%, capitalize);
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        .attendBtn {
+            padding: 10px 24px;
+            background: #FFDF00;
+            border-radius: 8px;
+            border: none;
+            margin-block: 10px;
+            text-align: center;
+            @include customFont(15px, 500, 15px, capitalize);
+        }
+    }
+
+    .cardWrapper {
+        flex-basis: 50%;
+        @include customFlex(20px, space-between);
+
+        .cards {
+            flex-basis: 44%;
+        }
+    }
+}
+
+@media(max-width: 880px) {
+    .meetupContainer {
+        flex-direction: column;
+
+        .contentWrapper {
+            order: 2;
+        }
+
+        .cardWrapper {
+            order: 1;
+            width: 100%;
+        }
+    }
+}
+
+@media(max-width: 550px) {
+    .meetupContainer {
+      .cardWrapper{
+        flex-wrap: wrap;
+        justify-content: center;
+        .cards{
+            flex-basis: 100%;
+        }
+      }
+    }
+}

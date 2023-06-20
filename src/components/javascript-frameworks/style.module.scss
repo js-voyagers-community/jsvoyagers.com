@@ -1,0 +1,14 @@
+@import '../../styles/mixins';
+
+.tech_Wrapper {
+    margin-block: 30px;
+
+    h4 {
+        width: 40%;
+        margin: auto;
+
+        @media(max-width: 880px) {
+            width: 80%;
+        }
+    }
+}

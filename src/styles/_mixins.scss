@@ -1,0 +1,19 @@
+@mixin container($width: 50%, $blockMargin: 0, $align: center) {
+    width: $width;
+    margin: $blockMargin auto;
+    text-align: $align;
+}
+
+@mixin customFlex($gap: 20px, $content: center) {
+    display: flex;
+    align-items: center;
+    gap: $gap;
+    justify-content: $content;
+}
+
+@mixin customFont($fontSize: 16px, $fontWeight: 500, $lineHeight: 160%, $textTransform: capitalize){
+    font-size: $fontSize;
+    font-weight: $fontWeight;
+    line-height: $lineHeight;
+    text-transform: $textTransform;
+}

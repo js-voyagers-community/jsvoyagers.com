@@ -1,0 +1,36 @@
+@import '../../styles/mixins';
+
+.cardConatiner {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .imageContainer {
+        width: 100%;
+        height: 100%;
+    }
+
+    .socialMediaIcons {
+        position: absolute;
+        bottom: 0;
+        left: 8%;
+        display: flex;
+        gap: 20px;
+    }
+
+    .userName {
+        @include customFont(24px, 700, 150%, upperCase);
+    }
+
+    .userDesignation {
+        @include customFont(16px, 500, 160%, capitalize);
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    @media(max-width: 880px){
+        .userName{
+            font-size: 16px;
+        }
+}
+}
+

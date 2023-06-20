@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: black;
+  color: white;
+  position: relative;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.title {
+  padding: 0 20px;
+}
+
+h4 {
+  /* font-family: 'Gotham Pro'; */
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 140%;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2px;
+  margin-block: 36px;
+}
+
+@media(max-width:600px) {
+  h4 {
+    font-size: 20px;
+  }
+}

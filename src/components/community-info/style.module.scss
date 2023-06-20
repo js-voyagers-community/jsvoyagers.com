@@ -1,0 +1,19 @@
+@import '../../styles/mixins';
+
+.communityInfo_Wrapper {
+    @include container(67%, 30px);
+
+    h4 {
+        @include customFont(22px, 700, 160%, upperCase);
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    p {
+        @include customFont();
+        margin-block: 10px;
+    }
+
+    @media(max-width: 880px){
+        width: 90%;
+    }
+}

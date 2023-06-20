@@ -1,0 +1,34 @@
+@import '../../styles/mixins';
+
+.cardContainer {
+    @include customFlex(20px, center);
+    flex-wrap: wrap;
+
+    .cards {
+        flex-basis: 22%;
+    }
+
+    .meetOurTeam {
+        text-align: center;
+        width: 220px;
+        height: 96px;
+        @include customFont(24px, 700, 160%, uppercase);
+        @include customFlex(10px, center);
+        flex-direction: column;
+
+
+        padding: 10px;
+
+        width: 285px;
+        height: 367px;
+
+        background: #181818;
+        border-radius: 16px;
+    }
+
+    @media(max-width: 880px) {
+        .cards {
+            flex-basis: 45%;
+        }
+    }
+}
