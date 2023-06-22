@@ -1,4 +1,4 @@
-import React, {Suspense, lazy} from 'react';
+import React, { Suspense, lazy } from 'react';
 
 const LazyHeader = lazy(() => import('@/components/header'));
 const LazyIntro = lazy(() => import('@/components/intro'));
@@ -36,10 +36,10 @@ const Homepage = () => {
 				<LazyOurSpeakers />
 			</Suspense>
 			<Suspense fallback={<>loading.........</>}>
-				<LazySponsors />
+				<LazyUpComingMeets />
 			</Suspense>
 			<Suspense fallback={<>loading.........</>}>
-				<LazyUpComingMeets />
+				<LazySponsors />
 			</Suspense>
 			<Suspense fallback={<>loading.........</>}>
 				<LazyFooter />

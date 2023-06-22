@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './style.module.scss';
 import Image from 'next/image';
-import techImage from '../../assets/tech.png';
+import techImage from '../../assets/tech.svg';
 
 const JavascriptTech = () => (
   <section className={style.tech_Wrapper}>

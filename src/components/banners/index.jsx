@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import style from './style.module.scss';
-import {EventBannersData} from './data';
+import { EventBannersData } from './data';
 
 const Banners = () => (
 	<div className={style.container}>

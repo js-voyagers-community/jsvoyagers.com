@@ -1,8 +1,8 @@
 import style from './style.module.scss';
 import JsLogo from '../../assets/js-logo.png';
 import Image from 'next/image';
-import {useState} from 'react';
-import {HeaderData} from './data';
+import { useState } from 'react';
+import { HeaderData } from './data';
 
 const Header = () => {
 	const [ hide, setHide ] = useState(false);

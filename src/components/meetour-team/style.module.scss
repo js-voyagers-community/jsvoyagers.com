@@ -1,7 +1,7 @@
 @import '../../styles/mixins';
 
 .cardContainer {
-    @include customFlex(20px, center);
+    @include customFlex(20px, center, flex-start);
     flex-wrap: wrap;
 
     .cards {

@@ -1,5 +1,5 @@
 .container {
-  margin: 30px auto;
+  margin: 30px auto 150px auto;
   position: relative;
   width: 100%;
   display: grid;
@@ -11,7 +11,7 @@
   display: flex;
   align-items: center;
   width: calc(250px * 18);
-  animation: scroll 50s linear infinite;
+  animation: scroll 40s linear infinite;
   z-index: -1;
 }
 
@@ -19,7 +19,6 @@
   0% {
     transform: translateX(0);
   }
-
   100% {
     transform: translateX(calc(-250px * 9));
   }
@@ -32,14 +31,12 @@
   perspective: 100px;
   z-index: -1;
 
-
   img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
     z-index: -1;
-
   }
 }
 

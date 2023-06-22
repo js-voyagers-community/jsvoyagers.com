@@ -4,9 +4,9 @@
     text-align: $align;
 }
 
-@mixin customFlex($gap: 20px, $content: center) {
+@mixin customFlex($gap: 20px, $content: center, $alineItem: center) {
     display: flex;
-    align-items: center;
+    align-items: $alineItem;
     gap: $gap;
     justify-content: $content;
 }

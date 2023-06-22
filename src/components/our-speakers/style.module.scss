@@ -1,16 +1,16 @@
 @import '../../styles/mixins';
 
-.cardContainer{
-    @include customFlex(20px, center);
-    flex-wrap: wrap;
+.cardContainer {
+	@include customFlex(20px, center, flex-start);
+	flex-wrap: wrap;
 
-    .cards{
-        flex-basis: 22%;
-    }
+	.cards {
+		flex-basis: 22%;
+	}
 
-    @media(max-width: 880px){
-        .cards{
-            flex-basis: 45%;
-        }
-    }
+	@media(max-width: 880px) {
+		.cards {
+			flex-basis: 45%;
+		}
+	}
 }
