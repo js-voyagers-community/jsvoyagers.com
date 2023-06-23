@@ -1,3 +1,4 @@
+import Counter from '../counter';
 import style from './style.module.scss';
 import cn from 'classnames';
 
@@ -9,16 +10,13 @@ const Intro = () => (
       <h1 className={style.heading}>The biggest Javascript Community in gujarat</h1>
       <ul className={style.info}>
         <li>
-          <p>02</p>
-          <p>Speakers sharing latest insights</p>
+          <Counter text='Speakers sharing latest insights' count={2} time={2000} />
         </li>
         <li>
-          <p>120+</p>
-          <p>Devs from all over the gujarat</p>
+          <Counter text='Devs from all over the gujarat' count={120} sign="+" time={2000} />
         </li>
         <li>
-          <p>04</p>
-          <p>Luckies meet in vadodara</p>
+          <Counter text='Luckies meet in vadodara' count={4} time={2000} />
         </li>
       </ul>
     </section>
