@@ -3,7 +3,7 @@ import style from './style.module.scss';
 import { SponsorsData } from './data';
 
 const Sponsors = () => (
-	<section className='title' id='sponsors'>
+	<section className='title' id="sponsors">
 		<h4>Our sponsors</h4>
 		<div className={style.sponsors_Info}>
 			{SponsorsData?.map((i, id) =>

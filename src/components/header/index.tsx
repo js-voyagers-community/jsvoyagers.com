@@ -5,7 +5,7 @@ import { useState } from 'react';
 import { HeaderData } from './data';
 
 const Header = () => {
-	const [ hide, setHide ] = useState(false);
+	const [hide, setHide] = useState(false);
 	return (
 		<header className={style.header_Wrapper}>
 			<div className={style.header_Container}>
@@ -13,11 +13,9 @@ const Header = () => {
 					<Image src={JsLogo} alt='logo' />
 				</figure>
 				<ul className={style.menu_Items}>
-					{
-						HeaderData?.map((s, id) =>
-							<li key={id}> <a href={s.link}> {s.label} </a></li>
-						)
-					}
+					{HeaderData?.map((s, id) =>
+						<li key={id}><a href={s.link}>{s.label}</a></li>
+					)}
 				</ul>
 				<ul className={style.clickIcon} onClick={() => setHide(!hide)}>
 					<li />

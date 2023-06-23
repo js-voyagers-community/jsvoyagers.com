@@ -3,7 +3,7 @@ import { OurTeam } from './data';
 import style from './style.module.scss';
 
 const MeetOurTeam = () => (
-  <section className='title'>
+  <section className='title' id="teams">
     <h4>Meet our team</h4>
     <div className={style.cardContainer}>
       {OurTeam.reverse().slice(0, 2)?.map((s) =>
@@ -18,9 +18,9 @@ const MeetOurTeam = () => (
           />
         </div>
       )}
-      <div className={style.meetOurTeam}>
+      {/* <div className={style.meetOurTeam}>
         WANT TO KNOW THE REST?
-      </div>
+      </div> */}
     </div>
   </section>
 );

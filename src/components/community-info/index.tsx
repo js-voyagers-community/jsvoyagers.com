@@ -1,7 +1,7 @@
 import style from './style.module.scss';
 
 const CommunityInfo = () => (
-  <section className={style.communityInfo_Wrapper}>
+  <section className={style.communityInfo_Wrapper} id="about">
     <h4>We’re gujarat’s first javascript community</h4>
     <p>JS-VOYAGERS is a thriving and dynamic community, proudly representing the vibrant city of Vadodara, Gujarat, as Gujarat’s first JavaScript Community. With an unwavering passion for JavaScript and a commitment to knowledge sharing, JS-VOYAGERS has emerged as a hub for JavaScript enthusiasts, developers, and learners alike.</p>
     <p>JS-VOYAGERS serves as a catalyst, igniting the JavaScript ecosystem in Vadodara and fostering a supportive environment for collaboration, learning, and growth. The community acts as a melting pot of diverse minds, bringing together industry professionals, students, entrepreneurs, and anyone interested in the fascinating world of JavaScript.</p>

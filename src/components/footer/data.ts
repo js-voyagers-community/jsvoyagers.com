@@ -6,18 +6,18 @@ import twitterLogo from '../../assets/twitter.svg';
 export const socalIcons = [
 	{
 		logo: githubLogo,
-		url: '',
+		url: '#',
 	},
 	{
 		logo: linkedinLogo,
-		url: '',
+		url: 'https://www.linkedin.com/company/js-voyagers/',
 	},
 	{
 		logo: twitterLogo,
-		url: '',
+		url: '#',
 	},
 	{
 		logo: youtubeLogo,
-		url: '',
+		url: '#',
 	},
 ];

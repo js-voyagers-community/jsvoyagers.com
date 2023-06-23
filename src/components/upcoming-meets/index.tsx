@@ -12,7 +12,7 @@ const UpcomingMeets = () => {
   const { title, description, time, date, location, speakers } = MeetupDetails;
   return (
     <section className='title'>
-      <h4>upcoming meet-up</h4>
+      <h4>Today's meet-up</h4>
       <div className={style.meetupContainer}>
         <div className={style.contentWrapper}>
           <h3>{title}</h3>
@@ -33,10 +33,10 @@ const UpcomingMeets = () => {
               <span>{time}</span>
             </div>
           </div>
-          <button className={style.attendBtn}>
+          <a className={style.attendBtn} href="https://www.meetup.com/js-voyagers/events/294136504/" target='_blank'>
             Attend
             <Image src={arrowImg} alt='' width={16} height={16} className={cn(style.icons, style.arrow)} />
-          </button>
+          </a>
         </div>
         <div className={style.cardWrapper}>
           {speakers?.map((s, id) =>

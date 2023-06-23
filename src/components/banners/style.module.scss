@@ -1,5 +1,5 @@
 .container {
-  margin: 30px auto 150px auto;
+  margin: 30px auto 60px auto;
   position: relative;
   width: 100%;
   display: grid;
@@ -19,6 +19,7 @@
   0% {
     transform: translateX(0);
   }
+
   100% {
     transform: translateX(calc(-250px * 9));
   }

@@ -8,7 +8,7 @@ const Footer = () => (
     <Image src={JsLogo} alt='logo' height={48} />
     <div className={style.content}>
       <div className={style.leftContent}>
-        <p>Lorem ipsum dolor sit amet consectetur. Lacus purus commodo nibh mauris donec nisl. Lorem ipsum dolor sit amet consectetur.</p>
+        <p>JS-VOYAGERS Is A Thriving And Dynamic Community, Proudly Representing The Vibrant City Of Vadodara, Gujarat, As Gujarat’s First JavaScript Community.</p>
       </div>
       <ul className={style.centerContent}>
         <li>Become volunteer</li>
@@ -19,7 +19,7 @@ const Footer = () => (
         <p className={style.updates}>Follow us for more updates</p>
         <div className={style.socialIcons}>
           {socalIcons?.map((i, id) =>
-            <a href={i.url} key={id} className={style.iconsLinks}>
+            <a href={i.url} key={id} className={style.iconsLinks} target={i.url !== '#' ? '_blank' : '_self'}>
               <Image src={i.logo} alt="sponsors" height={48} width={48} />
             </a>
           )}

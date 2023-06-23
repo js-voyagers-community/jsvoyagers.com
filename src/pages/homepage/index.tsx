@@ -14,34 +14,34 @@ const LazyFooter = lazy(() => import('@/components/footer'));
 const Homepage = () => {
 	return (
 		<>
-			<Suspense fallback={<>loading.........</>}>
+			<Suspense fallback={<></>}>
 				<LazyHeader />
 			</Suspense>
-			<Suspense fallback={<>loading.........</>}>
+			<Suspense fallback={<></>}>
 				<LazyIntro />
 			</Suspense>
-			<Suspense fallback={<>loading.........</>}>
+			<Suspense fallback={<></>}>
 				<LazyBanners />
 			</Suspense>
-			<Suspense fallback={<>loading.........</>}>
+			<Suspense fallback={<></>}>
 				<LazyJsTech />
 			</Suspense>
-			<Suspense fallback={<>loading.........</>}>
+			<Suspense fallback={<></>}>
 				<LazyCommunityInfo />
 			</Suspense>
-			<Suspense fallback={<>loading.........</>}>
+			<Suspense fallback={<></>}>
 				<LazyMeetOurTeam />
 			</Suspense>
-			<Suspense fallback={<>loading.........</>}>
-				<LazyOurSpeakers />
-			</Suspense>
-			<Suspense fallback={<>loading.........</>}>
+			<Suspense fallback={<></>}>
 				<LazyUpComingMeets />
 			</Suspense>
-			<Suspense fallback={<>loading.........</>}>
-				<LazySponsors />
+			<Suspense fallback={<></>}>
+				<LazyOurSpeakers />
 			</Suspense>
-			<Suspense fallback={<>loading.........</>}>
+			{/* <Suspense fallback={<></>}>
+				<LazySponsors />
+			</Suspense> */}
+			<Suspense fallback={<></>}>
 				<LazyFooter />
 			</Suspense>
 		</>

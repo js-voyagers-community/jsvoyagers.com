@@ -1,18 +1,18 @@
 export const HeaderData = [
     {
         label: 'About',
-        link: '',
+        link: '#about',
     },
     {
         label: 'Speakers',
         link: '#speakers',
     },
     {
-        label: 'Sponsors',
-        link: '#sponsors',
+        label: 'Our Team',
+        link: '#teams',
     },
     {
         label: 'Become volunteer',
-        link: '',
+        link: '#',
     },
-]
+];

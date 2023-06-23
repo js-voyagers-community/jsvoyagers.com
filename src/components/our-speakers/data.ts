@@ -1,31 +1,34 @@
 import dummyImage from '../../assets/dummyimage.png';
+import MahavirProfile from '../../assets/profiles/mahavir.jpg';
+import TirthProfile from '../../assets/profiles/tirth.jpg';
+import KaranProfile from '../../assets/profiles/karan.jpg';
 
 export const Speakers = [
 	{
 		id: 3,
 		name: 'Mahavir Vataliya',
 		designation: 'CTO @AtliQ Technologies',
-		image: dummyImage,
+		image: MahavirProfile,
 		githubURL: '',
-		linkedinURL: '',
+		linkedinURL: 'https://www.linkedin.com/in/mahavirvataliya/',
 		twitterURL: '',
 	},
 	{
 		id: 2,
 		name: 'Tirth Bodawala',
 		designation: 'Co founder of Atyantik Technologies',
-		image: dummyImage,
+		image: TirthProfile,
 		githubURL: '',
-		linkedinURL: '',
+		linkedinURL: 'https://www.linkedin.com/in/tirthbodawala/',
 		twitterURL: '',
 	},
 	{
 		id: 1,
 		name: 'Karan Ganwani',
 		designation: 'Software Engineer at AtliQ',
-		image: dummyImage,
+		image: KaranProfile,
 		githubURL: '',
-		linkedinURL: '',
+		linkedinURL: 'https://www.linkedin.com/in/karan-ganwani/',
 		twitterURL: '',
 	},
 ];

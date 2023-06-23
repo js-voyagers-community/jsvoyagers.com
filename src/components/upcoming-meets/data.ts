@@ -1,4 +1,6 @@
 import dummyImage from '../../assets/dummyimage.png';
+import TirthImage from '../../assets/profiles/tirth.jpg';
+import MahavirImage from '../../assets/profiles/mahavir.jpg';
 
 export const MeetupDetails = {
 	title: 'Web Performance and Efficiency + Serverless Architecture with JavaScript',
@@ -11,18 +13,18 @@ export const MeetupDetails = {
 			id: 1,
 			name: 'Tirth Bodawala',
 			designation: 'Co founder of Atyantik Technologies',
-			image: dummyImage,
+			image: TirthImage,
 			githubURL: '',
-			linkedinURL: '',
+			linkedinURL: 'https://www.linkedin.com/in/tirthbodawala/',
 			twitterURL: '',
 		},
 		{
 			id: 2,
 			name: 'Mahavir Vataliya',
 			designation: 'CTO @AtliQ Technologies',
-			image: dummyImage,
+			image: MahavirImage,
 			githubURL: '',
-			linkedinURL: '',
+			linkedinURL: 'https://www.linkedin.com/in/mahavirvataliya/',
 			twitterURL: '',
 		},
 	],

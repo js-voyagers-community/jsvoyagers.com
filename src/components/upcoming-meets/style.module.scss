@@ -19,13 +19,16 @@
 		}
 
 		.attendBtn {
+			display: block;
+			width: max-content;
 			padding: 10px 24px;
 			background: #FFDF00;
 			border-radius: 8px;
 			border: none;
 			margin-block: 10px;
 			text-align: center;
-			@include customFont(15px, 500, 15px, capitalize);
+			color: black;
+			@include customFont(15px, 600, 15px, capitalize);
 		}
 	}
 
@@ -59,6 +62,7 @@
 		.cardWrapper {
 			flex-wrap: wrap;
 			justify-content: center;
+
 			.cards {
 				flex-basis: 100%;
 			}
