@@ -1,65 +1,69 @@
 @import '../../styles/mixins';
 
+.margin_Inline {
+	margin: 60px auto;
+}
+
 .top_Left_FadeEffect {
-    position: absolute;
-    width: 590px;
-    height: 590px;
-    left: -391px;
-    top: -429px;
-    background: rgba(255, 223, 0, 0.2);
-    filter: blur(80px);
+	position: absolute;
+	width: 590px;
+	height: 590px;
+	left: -391px;
+	top: -429px;
+	background: rgba(255, 223, 0, 0.2);
+	filter: blur(80px);
 }
 
 .bottom_Left_FadeEffect {
-    position: absolute;
-    width: 590px;
-    height: 257px;
-    left: -380px;
-    bottom: 0;
-    background: rgba(255, 223, 0, 0.2);
-    filter: blur(80px);
+	position: absolute;
+	width: 590px;
+	height: 257px;
+	left: -380px;
+	bottom: 0;
+	background: rgba(255, 223, 0, 0.2);
+	filter: blur(80px);
 }
 
 .intro_Wrapper {
-    margin: 5% auto 20px auto;
-    width: 70%;
-    text-align: center;
+	margin: 5% auto 20px auto;
+	width: 70%;
+	text-align: center;
 
-    .heading {
-        font-family: 'Gotham Pro';
-        @include customFont(64px, 400, 150%, uppercase);
-    }
+	.heading {
+		font-family: 'Gotham Pro';
+		@include customFont(64px, 400, 150%, uppercase);
+	}
 
-    .info {
-        @include customFlex(0, space-evenly);
-        margin-block: 20px;
+	.info {
+		@include customFlex(0, space-evenly);
+		margin-block: 20px;
 
-        li {
-            flex-basis: 16%;
-            margin: 20px;
+		li {
+			flex-basis: 16%;
+			margin: 20px;
 
-            p:nth-child(1) {
-                // font-family: 'Gotham Pro';
-                @include customFont(64px, 800, inherit);
-                color: black;
-                // text-shadow: 0 0 3px #FFDF00;
-                -webkit-text-stroke: 1px #FFDF00;
-            }
+			p:nth-child(1) {
+				// font-family: 'Gotham Pro';
+				@include customFont(64px, 800, inherit);
+				color: black;
+				// text-shadow: 0 0 3px #FFDF00;
+				-webkit-text-stroke: 1px #FFDF00;
+			}
 
-            p:nth-child(2) {
-                font-family: 'Inter';
-                @include customFont();
-            }
-        }
-    }
+			p:nth-child(2) {
+				font-family: 'Inter';
+				@include customFont();
+			}
+		}
+	}
 }
 
 @media(max-width:600px) {
-    .info {
-        flex-direction: column;
-    }
+	.info {
+		flex-direction: column;
+	}
 
-    .heading {
-        font-size: 32px !important;
-    }
+	.heading {
+		font-size: 32px !important;
+	}
 }

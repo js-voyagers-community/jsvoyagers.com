@@ -1,60 +1,65 @@
 @import '../../styles/mixins';
 
 .footerContainer {
-    text-transform: capitalize;
-    @include container(78%, 30px, left);
+	text-transform: capitalize;
+	@include container(78%, 60px, left);
 
-    .content {
-        display: flex;
-        gap: 30px;
-        justify-content: space-between;
-        @include customFont(16px, 500, 160%);
+	.content {
+		display: flex;
+		gap: 30px;
+		justify-content: space-between;
+		@include customFont(16px, 500, 160%);
 
-        margin: 20px 0;
-    }
+		margin: 20px 0;
+	}
 
-    .leftContent,
-    .centerContent,
-    .rightContent {
-        flex-basis: 33%;
-    }
+	.leftContent,
+	.centerContent,
+	.rightContent {
+		flex-basis: 33%;
+	}
 
-    .centerContent {
-        li {
-            @include customFont(16px, 400, 2);
-        }
-    }
+	.centerContent {
+		li {
+			@include customFont(16px, 400, 2);
+		}
+	}
 
-    .updates {
-        @include customFont(32px, 700, 140%);
-    }
+	.updates {
+		@include customFont(32px, 700, 140%);
+	}
 
-    .copyRights {
-        @include customFont(12px, 400, 11px, uppercase);
-        color: rgba(255, 255, 255, 0.5);
-        text-align: center;
-        padding: 20px;
-    }
+	.copyRights {
+		@include customFont(12px, 400, 11px, uppercase);
+		color: rgba(255, 255, 255, 0.5);
+		text-align: center;
+		padding: 20px;
+	}
 
-    .socialIcons{
-        display: flex;
-        gap: 20px;
-        align-items: center;
-        padding: 20px 0;
+	.socialIcons {
+		display: flex;
+		gap: 20px;
+		align-items: center;
+		padding: 20px 0;
 
-        img{
-            width: 100%;
-            height: 100%;
-        }
-    }
+		img {
+			width: 100%;
+			height: 100%;
+		}
+	}
 }
 
 @media(max-width: 880px) {
-    .footerContainer {
-        width: 90%;
-    }
+	.footerContainer {
+		width: 90%;
+	}
 
-    .content {
-        flex-direction: column;
-    }
+	.content {
+		flex-direction: column;
+	}
+}
+
+.iconsLinks {
+	height: 48px;
+	width: 48px;
 }
