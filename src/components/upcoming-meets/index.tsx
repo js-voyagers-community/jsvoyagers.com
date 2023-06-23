@@ -12,7 +12,7 @@ const UpcomingMeets = () => {
   const { title, description, time, date, location, speakers } = MeetupDetails;
   return (
     <section className='title'>
-      <h4>Today's meet-up</h4>
+      <h4>Today&apos;s meet-up</h4>
       <div className={style.meetupContainer}>
         <div className={style.contentWrapper}>
           <h3>{title}</h3>
