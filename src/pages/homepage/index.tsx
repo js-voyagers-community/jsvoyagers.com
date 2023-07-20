@@ -24,20 +24,20 @@ const Homepage = () => {
 				<LazyBanners />
 			</Suspense>
 			<Suspense fallback={<></>}>
+				<LazyUpComingMeets />
+			</Suspense>
+			<Suspense fallback={<></>}>
 				<LazyJsTech />
 			</Suspense>
 			<Suspense fallback={<></>}>
 				<LazyCommunityInfo />
 			</Suspense>
-			<Suspense fallback={<></>}>
+{/* 			<Suspense fallback={<></>}>
 				<LazyMeetOurTeam />
-			</Suspense>
-			<Suspense fallback={<></>}>
-				<LazyUpComingMeets />
-			</Suspense>
-			<Suspense fallback={<></>}>
+			</Suspense> */}
+{/* 			<Suspense fallback={<></>}>
 				<LazyOurSpeakers />
-			</Suspense>
+			</Suspense> */}
 			{/* <Suspense fallback={<></>}>
 				<LazySponsors />
 			</Suspense> */}
