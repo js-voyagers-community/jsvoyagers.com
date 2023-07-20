@@ -16,7 +16,7 @@ const inter = Inter({subsets: [ 'latin' ]});
 
 export const metadata = {
   title: 'JS Voyagers',
-  description: 'Gujrats Biggest Javascript Community',
+  description: 'Gujarat\'s Biggest Javascript Community',
 };
 
 export default function RootLayout({children}) {
