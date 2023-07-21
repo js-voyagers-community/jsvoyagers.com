@@ -33,7 +33,7 @@ const UpcomingMeets = () => {
               <span>{time}</span>
             </div>
           </div>
-          <a className={style.attendBtn} href="https://www.meetup.com/js-voyagers/events/294136504/" target='_blank'>
+          <a className={style.attendBtn} href="https://www.meetup.com/js-voyagers/events/294778203/" target='_blank'>
             Attend
             <Image src={arrowImg} alt='' width={16} height={16} className={cn(style.icons, style.arrow)} />
           </a>
