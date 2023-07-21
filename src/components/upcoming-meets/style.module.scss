@@ -34,8 +34,7 @@
 
 	.cardWrapper {
 		flex-basis: 50%;
-		@include customFlex(20px, space-between, flex-start);
-
+		@include customFlex(20px, center, flex-start);
 		.cards {
 			flex-basis: 44%;
 		}
